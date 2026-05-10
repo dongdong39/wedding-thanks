@@ -22,7 +22,7 @@ body {
     position: relative;
     height: 80vh;
     min-height: 480px;
-    background: url('images/hero.jpg') center center / cover no-repeat;
+    background: url('images/g1.jpg') center center / cover no-repeat;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -216,9 +216,15 @@ body {
     padding: 64px 32px;
 }
 
-.closing-flower {
-    font-size: 28px;
-    margin-bottom: 24px;
+.closing-photo {
+    margin-bottom: 32px;
+}
+
+.closing-photo img {
+    width: 80%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
 }
 
 .closing-text {
