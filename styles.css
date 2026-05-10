@@ -22,7 +22,7 @@ body {
     position: relative;
     height: 80vh;
     min-height: 480px;
-    background: url('images/4.jpg') center center / cover no-repeat;
+    background: url('images/g1.jpg') center center / cover no-repeat;
     display: flex;
     align-items: flex-end;
     justify-content: center;
