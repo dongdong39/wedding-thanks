@@ -242,11 +242,40 @@ body {
     border-top: 1px solid #e0dbd5;
 }
 
-.closing-couple p {
+.closing-names {
     font-size: 17px;
     font-weight: 400;
     color: #3a3a3a;
     letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.closing-parents {
+    font-size: 13px;
+    color: #999;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.closing-olim {
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 2px;
+    margin-top: 12px;
+}
+
+.greeting-parents {
+    font-size: 13px;
+    color: #aaa;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.greeting-olim {
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 2px;
+    margin-top: 8px;
 }
 
 /* Ceremony */
