@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     background: #fff;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 /* Hero */
@@ -220,11 +221,17 @@ body {
     margin-bottom: 32px;
 }
 
+.closing-photo {
+    overflow: hidden;
+}
+
 .closing-photo img {
-    width: 60%;
-    max-width: 240px;
+    width: 100%;
+    max-width: 280px;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    display: block;
+    margin: 0 auto;
 }
 
 .closing-text {
